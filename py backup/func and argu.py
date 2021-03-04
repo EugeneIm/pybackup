@@ -61,3 +61,32 @@ myFunction("emil", "tobias", "linus")
 
 #------------------------------------------------------------
 
+#keyword arguments
+
+"""
+def myFunction(child3, child2, child1):
+    print("the youngest is " + child1)
+
+myFunction(child1 = " emil", child2 = "tobias", child3 = "linus")
+"""
+
+#by using "child1" in the function, you put the name of child1 = emil as the addition to the function
+    #myFunction(child1 = "emil", child2 = "tobias", child3 = "linus"
+
+#------------------------------------------------------------
+
+#Arbitrary Keyword Args. **kwargs for short
+
+"""
+def myFuntion(**kid):
+    print("his last name is " + kid["lname"])
+
+myFuntion(fname = "tobias", lname = "fate")
+"""
+
+#the output is "his last name is fate"
+    #the function does not know how many keywords args are going to be placed
+        #you can also add kid[1]["lname"] if you have more than 1 kid named 
+
+#------------------------------------------------------------
+
