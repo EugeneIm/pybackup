@@ -90,3 +90,54 @@ myFuntion(fname = "tobias", lname = "fate")
 
 #------------------------------------------------------------
 
+#DEFAULT PARAMETER VALUES
+
+"""
+def myFunction(country = "Norway"):
+    print("I am from " + country)
+
+myFunction("Canada")
+myFunction("Korea")
+myFunction("America")
+myFunction()
+"""
+
+#since country is already assigned to "Norway" when the function has (), it is already valued to Norway
+#but since every other one has a value, "country" gets valued to "Canada", "Korea", "America", etc)
+
+
+#------------------------------------------------------------
+
+#Passing a list in an arg
+
+"""
+def myFunction(food):
+    for x in food:
+        print(x)
+
+fruits = ["cherry", "pear", "plum"]
+
+myFunction(fruits)
+"""
+
+#Any data type is able to be sent to a function. 
+#since X isn't labelled to a specific value, it prints out "fruits" which equals to "cherry", "pear", "plum"
+
+#------------------------------------------------------------
+
+#RETURN VALUES
+
+"""
+def myFunction(x):
+    return 5 * x
+
+print(myFunction(2))
+print(myFunction(3))
+print(myFunction(7))
+"""
+
+#Since the function loops through the different print(____())
+    #and what's in the second brackets is the value of x, it will return
+        #5 * 3, 5 * 2, 5 * 7
+
+        
