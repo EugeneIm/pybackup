@@ -139,5 +139,3 @@ print(myFunction(7))
 #Since the function loops through the different print(____())
     #and what's in the second brackets is the value of x, it will return
         #5 * 3, 5 * 2, 5 * 7
-
-        
