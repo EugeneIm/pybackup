@@ -2,7 +2,7 @@
 #When you add the __init__() function, the child class will no longer inherit the parent's __init__() function.
 #To keep the inheritance of the parent's __init__() function, add a call to the parent's __init__() function:
 
-"""
+
 class Person:
   def __init__(self, fname, lname):
     self.firstname = fname
@@ -17,7 +17,7 @@ class Student(Person):
 
 x = Student("Mike", "Olsen")
 x.printname()
-"""
+
 
 #-------------------------------
 
