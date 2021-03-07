@@ -41,9 +41,4 @@ class Student(Person):
 x = Student("Mike", "Olsen")
 x.printname()
 
-<<<<<<< HEAD
 #because there is the "super()" function, it makes the child class inherite the methods and properties from its parent. 
-
-=======
-#because there is the "super()" function, it makes the child class inherite the methods and properties from its parent. 
->>>>>>> a26b2c11379f9effc5f051baea80aed30ea1b297
