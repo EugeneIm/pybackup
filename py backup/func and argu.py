@@ -3,8 +3,16 @@
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 
 >>>>>>> 5573ffad141e715c688318cc9d91bc2f7e0579f6
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5573ffad141e715c688318cc9d91bc2f7e0579f6
+>>>>>>> main
+>>>>>>> 422f29ba7a59c0d39564dcae31cd273c3c0dbf55
 def myFunction():
     print("how about no")
 

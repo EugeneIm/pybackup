@@ -1,4 +1,10 @@
 
+<<<<<<< HEAD
+=======
+#"def" tri_recursion(k): just defines that "tri_recursion(k)" will do what is written underneath it
+
+
+>>>>>>> 422f29ba7a59c0d39564dcae31cd273c3c0dbf55
 def tri_recursion(k):
   if(k > 0):
     result = k + tri_recursion(k - 1)
@@ -7,8 +13,14 @@ def tri_recursion(k):
     result = 0
   return result
 
-print("\n\nRecursion Example Results")
-tri_recursion(6)
+print("\n\nRecursion Example Results")      #the syntax prints out "Recursion Example Results" before the results
+tri_recursion(4)      #tri_recursion(n) is basically the "print(n) of tri-recursion()"
+
+
+#I don't necessarily know why if I put (k - 4) it only prints out one "4" even though the brackets in tri_recursion(4) is the value 4. 
+  #which should print out the loop 4 times. 
+#k - 1 prints out 1, 3, 6, 10. Intervals growing by 1. 1-3 = 2, 3-6 = 3, 6-10 = 4. 
+
 
 
 #^^ Keep looking at this and trying it out, learn how it works 
@@ -16,22 +28,34 @@ tri_recursion(6)
 
 
 
+<<<<<<< HEAD
 """
 Python also accepts function recursion, which means a defined function can call itself.
+=======
 
-Recursion is a common mathematical and programming concept. It means that a function calls itself. 
+#PYTHON ALSO ACCEPTS FUNCTION RECURSION, WHICH MEANS A DEFINED FUNCTION CAN CALL ITSELF.
 
-This has the benefit of meaning that you can loop through data to reach a result.
+#RECURSION IS A COMMON MATHEMATICAL AND PROGRAMMING CONCEPT. IT MEANS THAT A FUNCTION CALLS ITSELF. 
+>>>>>>> 422f29ba7a59c0d39564dcae31cd273c3c0dbf55
 
-The developer should be very careful with recursion as it can be quite easy to slip into writing a function which never terminates, 
+#THIS HAS THE BENEFIT OF MEANING THAT YOU CAN LOOP THROUGH DATA TO REACH A RESULT.
 
-or one that uses excess amounts of memory or processor power. However, when written correctly recursion can be a very efficient and mathematically-elegant approach to programming.
+#THE DEVELOPER SHOULD BE VERY CAREFUL WITH RECURSION AS IT CAN BE QUITE EASY TO SLIP INTO WRITING A FUNCTION WHICH NEVER TERMINATES, 
 
-In this example, tri_recursion() is a function that we have defined to call itself ("recurse"). 
+#OR ONE THAT USES EXCESS AMOUNTS OF MEMORY OR PROCESSOR POWER. HOWEVER, WHEN WRITTEN CORRECTLY RECURSION CAN BE A VERY EFFICIENT AND MATHEMATICALLY-ELEGANT APPROACH TO PROGRAMMING.
 
-We use the k variable as the data, which decrements (-1) every time we recurse. The recursion ends when the condition is not greater than 0 (i.e. when it is 0).
+#IN THIS EXAMPLE, TRI_RECURSION() IS A FUNCTION THAT WE HAVE DEFINED TO CALL ITSELF ("RECURSE"). 
 
+#WE USE THE K VARIABLE AS THE DATA, WHICH DECREMENTS (-1) EVERY TIME WE RECURSE. THE RECURSION ENDS WHEN THE CONDITION IS NOT GREATER THAN 0 (I.E. WHEN IT IS 0).
+
+#TO A NEW DEVELOPER IT CAN TAKE SOME TIME TO WORK OUT HOW EXACTLY THIS WORKS, BEST WAY TO FIND OUT IS BY TESTING AND MODIFYING 
+
+<<<<<<< HEAD
 To a new developer it can take some time to work out how exactly this works, best way to find out is by testing and modifying it.
 """
 #This is the literal definition of what recursions are. 
+=======
 
+>>>>>>> 422f29ba7a59c0d39564dcae31cd273c3c0dbf55
+
+#This is the literal definition of what recursions are. 

@@ -20,9 +20,17 @@ cars = ["ford", "honda", "benz"]
 x = len(cars)
 
 print(x)
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 422f29ba7a59c0d39564dcae31cd273c3c0dbf55
+
+>>>>>>> main
 
 
-#this will print '3'
+#this will print '3' because the length of the array is 3 words, etc. 
 
 #-------------------------
 
@@ -57,6 +65,7 @@ print(cars)
 
 #this removes the second item in the array. 
     #Therefore, when you print cars, it will only show "ford" and "BMW"
+#"pop" just deletes a part from the array. 
 
 #-------------------------
 
