@@ -1,5 +1,5 @@
 #Inheritance
-
+#THERE ARE EXAMPLE SYNTAXES BELOW
 #Parent and Child class. 
 
 

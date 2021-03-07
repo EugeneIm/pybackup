@@ -1,3 +1,4 @@
+#THERE ARE EXAMPLE SYNTAXES BELOW
 
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:

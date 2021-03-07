@@ -1,4 +1,5 @@
 #PY ARRAYS
+#THERE ARE EXAMPLE SYNTAXES BELOW
 
 #Arrays are used to store multiple values. 
 #An array is a special variable which holes more than one value at a time. 

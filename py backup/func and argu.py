@@ -1,4 +1,6 @@
 #NTOES FOR FUNCTIONS "def" is to define the function
+#THERE ARE EXAMPLE SYNTAXES BELOW
+
 
 
 def myFunction():

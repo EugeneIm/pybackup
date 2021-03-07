@@ -1,4 +1,7 @@
 #you create a class in py the same way you would create one in HTML
+#THERE ARE EXAMPLE SYNTAXES BELOW
+
+
     #class myFunction() - py
     #class = "function" - HTML
     #class myFunction()

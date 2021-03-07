@@ -1,3 +1,4 @@
+#THERE ARE EXAMPLE SYNTAXES BELOW
 
 for x in range(6):
     print(x)
