@@ -10,15 +10,16 @@ x = cars[1]
 
 print(x)
 
-#this will print "honda"
+#this will print "honda" because it's the second one. 
+#All listings in code start from 0. So 1 is "honda" 
 
 #-------------------------
 
-#ArrayLen
+#ArrayLength
 
 
 cars = ["ford", "honda", "benz"]
-x = len(cars)
+x = len(cars)  #this is saying that x is equal to the length of the array and how many different objects are in there. 
 
 print(x)
 
@@ -35,6 +36,7 @@ cars = ["Ford", "Volvo", "BMW"]
 for x in cars:
   print(x)
 
+#this will print Ford, Volvo, and BMW in a list. 
 
 #-------------------------
 
@@ -46,6 +48,7 @@ cars = ["Ford", "Volvo", "BMW"]
 cars.append("Honda") 
 print(cars)
 
+#This will print out the 4 cars in a line. ['ford', 'volvo', 'bmw', 'honda']
 
 #this adds "honda" to the end of the array so printing cars will be "ford" "volvo" "bmw" "honda"
 
@@ -59,6 +62,7 @@ print(cars)
 #this removes the second item in the array. 
     #Therefore, when you print cars, it will only show "ford" and "BMW"
 #"pop" just deletes a part from the array. 
+#['Ford', 'BMW'] is the result of this syntax being run in the terminal
 
 #-------------------------
 
