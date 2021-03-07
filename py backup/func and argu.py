@@ -1,6 +1,10 @@
 #NTOES FOR FUNCTIONS "def" is to define the function
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5573ffad141e715c688318cc9d91bc2f7e0579f6
 def myFunction():
     print("how about no")
 
@@ -10,9 +14,9 @@ myFunction()
         #print("how about no")
                 #^ this is defining WHAT the function will do when called. 
 
-"""
+
 myFunction()
-"""
+
 
     #^this is used to call the function and everything inside the function will
         #be run once called. 
