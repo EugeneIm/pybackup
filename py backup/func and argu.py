@@ -1,6 +1,13 @@
-#NTOES FOR FUNCTIONS
+#NTOES FOR FUNCTIONS "def" is to define the function
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5573ffad141e715c688318cc9d91bc2f7e0579f6
+>>>>>>> main
 def myFunction():
     print("how about no")
 
