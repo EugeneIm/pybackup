@@ -1,10 +1,5 @@
-
-<<<<<<< HEAD
-=======
 #"def" tri_recursion(k): just defines that "tri_recursion(k)" will do what is written underneath it
 
-
->>>>>>> 422f29ba7a59c0d39564dcae31cd273c3c0dbf55
 def tri_recursion(k):
   if(k > 0):
     result = k + tri_recursion(k - 1)
@@ -28,15 +23,9 @@ tri_recursion(4)      #tri_recursion(n) is basically the "print(n) of tri-recurs
 
 
 
-<<<<<<< HEAD
-"""
-Python also accepts function recursion, which means a defined function can call itself.
-=======
-
 #PYTHON ALSO ACCEPTS FUNCTION RECURSION, WHICH MEANS A DEFINED FUNCTION CAN CALL ITSELF.
 
 #RECURSION IS A COMMON MATHEMATICAL AND PROGRAMMING CONCEPT. IT MEANS THAT A FUNCTION CALLS ITSELF. 
->>>>>>> 422f29ba7a59c0d39564dcae31cd273c3c0dbf55
 
 #THIS HAS THE BENEFIT OF MEANING THAT YOU CAN LOOP THROUGH DATA TO REACH A RESULT.
 
@@ -50,12 +39,7 @@ Python also accepts function recursion, which means a defined function can call 
 
 #TO A NEW DEVELOPER IT CAN TAKE SOME TIME TO WORK OUT HOW EXACTLY THIS WORKS, BEST WAY TO FIND OUT IS BY TESTING AND MODIFYING 
 
-<<<<<<< HEAD
-To a new developer it can take some time to work out how exactly this works, best way to find out is by testing and modifying it.
-"""
-#This is the literal definition of what recursions are. 
-=======
 
->>>>>>> 422f29ba7a59c0d39564dcae31cd273c3c0dbf55
+#To a new developer it can take some time to work out how exactly this works, best way to find out is by testing and modifying it.
 
 #This is the literal definition of what recursions are. 
