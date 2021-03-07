@@ -1,3 +1,4 @@
+
 def tri_recursion(k):
   if(k > 0):
     result = k + tri_recursion(k - 1)
@@ -11,6 +12,10 @@ tri_recursion(6)
 
 
 #^^ Keep looking at this and trying it out, learn how it works 
+#Figure out how recursions work and then explain the syntax later. 
+
+
+
 """
 Python also accepts function recursion, which means a defined function can call itself.
 
@@ -28,5 +33,5 @@ We use the k variable as the data, which decrements (-1) every time we recurse. 
 
 To a new developer it can take some time to work out how exactly this works, best way to find out is by testing and modifying it.
 """
-
+#This is the literal definition of what recursions are. 
 
