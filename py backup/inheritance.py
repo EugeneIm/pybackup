@@ -2,7 +2,7 @@
 
 #Parent and Child class. 
 
-"""
+
 class Person:
   def __init__(self, fname, lname):
     self.firstname = fname
@@ -15,7 +15,7 @@ class Person:
 
 x = Person("John", "Doe")
 x.printname()
-"""
+
 
 #The parent class is "Person" 
 #---------------------------------
@@ -23,7 +23,7 @@ x.printname()
 #Creating a child class. This one will be named "student" 
     #but it will inherit the properties and methods from the parent class "person" 
 
-"""
+
 class Person:
   def __init__(self, fname, lname):
     self.firstname = fname
@@ -38,7 +38,7 @@ class Student(Person):
 
 x = Student("Mike", "Olsen")
 x.printname()
-"""
+
 
 #since "student" has inhereted the parent class, using x.printname() will print 
     #Mike Olsen just like how 
