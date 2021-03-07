@@ -20,11 +20,6 @@ cars = ["ford", "honda", "benz"]
 x = len(cars)
 
 print(x)
-<<<<<<< HEAD
-=======
-
->>>>>>> main
-
 
 #this will print '3' because the length of the array is 3 words, etc. 
 

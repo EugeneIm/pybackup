@@ -39,11 +39,6 @@ class Student(Person):
 x = Student("Mike", "Olsen")
 x.printname()
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a26b2c11379f9effc5f051baea80aed30ea1b297
-
 #since "student" has inhereted the parent class, using x.printname() will print 
     #Mike Olsen just like how 
         #x = person("john", "doe")

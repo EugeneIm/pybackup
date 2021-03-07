@@ -44,13 +44,13 @@ else:
 #BREAK THE LOOP Just like how in JS theres (i = 0; i < 20; 1++). It stops printing the variable after it reaches 19. 
 #However in this it just uses if x == 3: break. (Much simpler and more convenient)
 
-"""
+
 for x in range(6):
     if x == 3: break
     print(x)
 else: 
     print("done")
-"""
+
 
 
 #if you look at the code and don't know how it reads top to bottom, you would expect the end to print "done"
@@ -63,11 +63,11 @@ else:
 #adj = ["red", "big", "tasty"]
 #fruits = ["apple", "banana", "cherry"]
 
-"""
+
 for x in adj:
     for y in fruits:
         print(x, y)
-"""
+
 
 #since "for y" is nested inside the adj loop, when print(x, y) is executed, 
     #each word will be printed with each fruit. red apple, red banana, red cherry, etc. 
