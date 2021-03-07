@@ -40,4 +40,3 @@ x = Student("Mike", "Olsen")
 x.printname()
 
 #because there is the "super()" function, it makes the child class inherite the methods and properties from its parent. 
-
