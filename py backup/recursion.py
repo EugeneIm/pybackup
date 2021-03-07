@@ -1,4 +1,6 @@
 #"def" tri_recursion(k): just defines that "tri_recursion(k)" will do what is written underneath it
+#THERE ARE EXAMPLE SYNTAXES BELOW
+
 
 def tri_recursion(k):
   if(k > 0):
