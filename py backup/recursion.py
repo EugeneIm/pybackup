@@ -7,8 +7,9 @@ def tri_recursion(k):
     result = 0
   return result
 
-print("\n\nRecursion Example Results")
-tri_recursion(6)
+print("\n\nRecursion Example Results")      #the syntax prints out "Recursion Example Results" before the results
+tri_recursion(4)      #tri_recursion(n) is basically the "print(n) of tri-recursion()"
+
 
 
 #^^ Keep looking at this and trying it out, learn how it works 
