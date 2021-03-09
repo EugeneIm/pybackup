@@ -43,3 +43,9 @@ while i < 6:
 #when "i" is equal to 3, skip the print(i) of "3". 
     #0, 1, 2, 4, 5 ,6 
 
+i = 0
+while i < 10:
+    i += 1
+    if i == 3:
+        break
+    print(i)()
