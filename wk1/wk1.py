@@ -18,8 +18,18 @@
 # x = "hello world"; this is a string
 # x = 10.4; this is a floating point 
 
-print('enter something hoe')
+'''
+print('enter something ho')
 myInput = input()
 
 print(myInput)
 print('you entered:', myInput)
+'''
+
+#built-in functions
+x = 1
+print(type(x))      #<class 'int'>
+
+x = 1 
+print(id(x))        #ID
+
