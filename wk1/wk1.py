@@ -17,14 +17,12 @@
 # x = 5; this is an integer
 # x = "hello world"; this is a string
 # x = 10.4; this is a floating point 
-
-'''
 print('enter something ho')
 myInput = input()
 
 print(myInput)
 print('you entered:', myInput)
-'''
+
 
 #built-in functions
 x = 1
