@@ -4,7 +4,7 @@
 
 # this is a comment, this is meant for a human to read, not for a computer to read and execute
 
-# camelcase
+#UpperCamelCase
     # my_Function = CamelCase
 #snake case
     #my_function = snake case
